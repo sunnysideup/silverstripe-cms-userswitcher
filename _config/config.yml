@@ -1,5 +1,7 @@
 ---
 Name: silverstripe-cms-userswitcher
+Only:
+  moduleexists: 'sandervanscheepen/silverstripe-cms-userswitcher'
 ---
 SilverStripe\Admin\LeftAndMain:
   extensions:
