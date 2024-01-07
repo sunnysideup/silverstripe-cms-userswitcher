@@ -2,7 +2,7 @@
 
 Allows administrators to assume the identity of another user.
 
-Silverstripe 4+ (inc 5)
+Silverstripe 4+
 
 ## Installation
 ```
