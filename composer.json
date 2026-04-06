@@ -1,47 +1,47 @@
 {
-    "name": "sandervanscheepen/silverstripe-cms-userswitcher",
-    "description": "Allows admins to switch to another user account through the CMS menu",
-    "type": "silverstripe-vendormodule",
-    "homepage": "https://github.com/sandervanscheepen/silverstripe-cms-userswitcher",
-    "keywords": [
-        "silverstripe",
-        "silverstripe-cms",
-        "CMS",
-        "userswitcher",
-        "security",
-        "member",
-        "admin",
-        "authentication",
-        "login"
-    ],
-    "license": "BSD-3-Clause",
-    "require": {
-        "php": ">=8.1",
-        "silverstripe/cms": "^5"
-    },
-    "autoload": {
-        "psr-4": {
-            "SanderVanScheepen\\SilverstripeCMSUserSwitcher\\": "src/"
-        }
-    },
-    "support": {
-        "issues": "https://github.com/sandervanscheepen/silverstripe-cms-userswitcher/issues"
-    },
-    "extra": {
-        "installer-name": "Silverstripe CMS UserSwitcher",
-        "branch-alias": {
-            "dev-master": "2.x-dev"
-        },
-        "expose": [
-            "client/dist"
-        ]
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "config": {
-        "sort-packages": true,
-        "allow-plugins": {
-            "silverstripe/vendor-plugin": true
-        }
+  "name": "sandervanscheepen/silverstripe-cms-userswitcher",
+  "description": "Allows admins to switch to another user account through the CMS menu",
+  "type": "silverstripe-vendormodule",
+  "homepage": "https://github.com/sandervanscheepen/silverstripe-cms-userswitcher",
+  "keywords": [
+    "silverstripe",
+    "silverstripe-cms",
+    "CMS",
+    "userswitcher",
+    "security",
+    "member",
+    "admin",
+    "authentication",
+    "login"
+  ],
+  "license": "BSD-3-Clause",
+  "require": {
+    "php": ">=8.1",
+    "silverstripe/cms": "^5"
+  },
+  "autoload": {
+    "psr-4": {
+      "SanderVanScheepen\\SilverstripeCMSUserSwitcher\\": "src/"
     }
+  },
+  "support": {
+    "issues": "https://github.com/sandervanscheepen/silverstripe-cms-userswitcher/issues"
+  },
+  "extra": {
+    "installer-name": "Silverstripe CMS UserSwitcher",
+    "branch-alias": {
+      "dev-master": "2.x-dev"
+    },
+    "expose": [
+      "client/dist"
+    ]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "silverstripe/vendor-plugin": true
+    }
+  }
 }
